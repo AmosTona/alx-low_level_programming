@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - Prints the alphabet in lowercase, then in uppercase.
- (*
-  * Return: 0 on succes
-  */
+(*
+ * Return: 0 on succes
+ */
 int main(void)
 {
 	char c = 'a';
@@ -13,6 +13,11 @@ int main(void)
 	{
 		putchar(c);
 		c++;
+	}
+	while (d <= 'Z')
+	{
+		putchar(d);
+		d++;
 	}
 	putchar('\n');
 	return (0);
