@@ -10,14 +10,14 @@
  **/
 int main(void)
 {
-	char c[8] = "_putchar";
+	char c[8] = "putchar";
 	int i = 0;
 
 	while (i < 8)
 	{
-		_putchar(c[i]);
+		putchar(c[i]);
 		i++;
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
